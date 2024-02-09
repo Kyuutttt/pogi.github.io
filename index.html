@@ -1,0 +1,84 @@
+<html>
+    <body>
+        <div>
+            <link
+            href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+            rel="stylesheet"/>
+             </Br>
+            <h1 class="title">Will you be my valentine?</h1>
+            <img src="https://media1.tenor.com/images/24ac4dadc09cc131dfb30abc71d4350f/tenor.gif?itemid=9648453" alt="">
+            <img id="myImage" src="https://media1.tenor.com/images/56990e14ca6211ed08a2f8f239b96c9a/tenor.gif?itemid=11691445" alt="Displayed image">
+        </Br></Br>
+            <div class="buttons">   
+            <button class="btn YES" id="Yesbt" onclick="location.href='gift.html'">Yes</button>
+            <button class="btn NO" id="no">No</button>
+        </div>
+    </div>
+    <style>
+        body{
+            background-image: url(mazenamazekita.png);
+        }
+        .title {
+         font-size: 3.6rem;
+         color: rgb(255, 24, 236);
+         text-align: center;
+         margin-bottom: 2rem;
+         font-family: "Protest Riot", sans-serif;
+        }
+
+        #myImage{
+            height: 250px;
+            width: 325px;
+            height: auto;
+            margin-left: 50px;
+        }
+
+        .btn {
+         padding: 1.5rem 2.5rem;
+         border: none;
+         border-radius: 50px;
+         margin-left: 5%;
+        
+         color: white;
+         font-size: 1.6rem;
+         font-weight: 600;
+         cursor: pointer;
+         display: inline-block;
+         }
+
+        .YES{
+            background-color: green;
+            font-family: "Protest Riot", sans-serif;
+        }
+
+        .NO{
+            background-color: red; 
+            font-family: "Protest Riot", sans-serif;
+        }
+
+        div{
+            text-align: center;
+            vertical-align: middle;
+        }
+        #no{
+            position: absolute;
+        }
+
+    </style>
+    <script>
+        document.getElementById("Yesbt").addEventListener("click", function(){
+            alert("Hello HAHAHHHAHA kemi kemi lang po itong Will u be my valentine? na ginawa ko gusto kolang talagang mag papansin HAHHAHA pero what if kksjkladjljadsdafhiujasldjla ................................................. SIGE NA PINDUTIN MONA YUNG OKAY HAHHAHAHHA");
+        });
+            var b = document.getElementById("no")
+            b.addEventListener("click",change);
+            function change()   {
+                
+                var i = Math.floor(Math.random()*1000)+1;
+                var j = Math.floor(Math.random()*700)+1;
+                b.style.left = i+"px";
+                b.style.top = j+"px";
+            }
+    </script>
+    <h1 ALIGN="center">Created by: John Marsen Batanas</h1>
+    </body>
+</html>
